@@ -28,7 +28,11 @@ const Footer = () => {
                         <li>Blog</li>
                         <li>Contact Us</li>
                     </ul>
+
+                    <SocialIcons />
                 </Flex>
+
+                <p>&copy; 2021 Huddle. All rights reserved.</p>
             </Container>
         </div>
     )
