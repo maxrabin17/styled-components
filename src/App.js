@@ -2,6 +2,7 @@ import { ThemeProvider } from 'styled-components';
 import { Container } from './components/styles/Container.styled'
 import Header from './components/Header';
 import GlobalStyles from './components/styles/Global';
+import Card from './components/Card';
 import content from './content'
 
 const theme = {
@@ -21,7 +22,7 @@ function App() {
         <Header />
         <Container>
           {content.map((item, index) => (
-            <p>{item.title}</p>
+            <Card key={index} item={item} />
           ))}
         </Container>
       </>
