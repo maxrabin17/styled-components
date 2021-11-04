@@ -24,7 +24,6 @@ const Footer = () => {
                         <li>What We Do</li>
                         <li>FAQ</li>
                     </ul>
-
                     <ul>
                         <li>Career</li>
                         <li>Blog</li>
